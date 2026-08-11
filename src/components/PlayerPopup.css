@@ -1,0 +1,70 @@
+.player-popup {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background:
+    radial-gradient(ellipse 70% 40% at 50% 0%, rgba(212, 168, 75, 0.18), transparent 55%),
+    linear-gradient(160deg, #0e221d 0%, #1a3a32 50%, #0e221d 100%);
+  color: #f3efe4;
+}
+
+.popup-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: end;
+  padding: 0.85rem 1.25rem;
+}
+
+.popup-brand {
+  margin: 0;
+  font-family: 'Bricolage Grotesque', Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.popup-sub {
+  margin: 0.2rem 0 0;
+  color: rgba(243, 239, 228, 0.7);
+  font-size: 0.88rem;
+}
+
+.popup-meta {
+  color: rgba(243, 239, 228, 0.75);
+  font-size: 0.9rem;
+}
+
+.popup-error {
+  margin: 0 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background: rgba(179, 58, 58, 0.2);
+  color: #ffb4b4;
+}
+
+.popup-stage {
+  min-height: 0;
+  padding: 0 1rem 1rem;
+  display: flex;
+}
+
+.popup-frame {
+  flex: 1;
+  min-height: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.popup-yt-mount,
+.popup-yt-mount iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.popup-empty {
+  margin: auto;
+  color: rgba(243, 239, 228, 0.7);
+}
